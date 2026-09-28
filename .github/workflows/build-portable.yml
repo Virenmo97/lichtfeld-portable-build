@@ -73,7 +73,7 @@ jobs:
         shell: pwsh
         working-directory: lfs
         continue-on-error: true
-        run: & ".\dist\bin\LichtFeld-Studio.exe" --help
+        run: '& ".\dist\bin\LichtFeld-Studio.exe" --help'
 
       - name: Upload dist artifact
         uses: actions/upload-artifact@v4
